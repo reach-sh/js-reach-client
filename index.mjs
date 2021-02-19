@@ -1,6 +1,6 @@
 import waitPort from 'wait-port';
 import bent     from 'bent';
-// a pretend change to make sure it is working
+
 export const mkRPC = opts => {
   const defaults = {
     host:   'REACH_RPC_SERVER',
