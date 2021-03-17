@@ -8,4 +8,4 @@ See:
 
 * [@reach-sh/stdlib docs](https://docs.reach.sh/ref-backend-js.html)
 * [Reach docs](https://docs.reach.sh)
-* [JS source for this library](https://github.com/reach-sh/reach-lang/tree/master/js/rpc-client)
+* [JS source for this library](https://github.com/reach-sh/reach-lang/tree/master/rpc-client/js)
