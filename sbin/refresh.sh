@@ -4,7 +4,7 @@ set -ex
 git diff --exit-code || (echo '\n\n\nGit repo is not clean; please commit first.' && exit 1)
 
 REACH_LANG_ROOT=../reach-lang
-cp "$REACH_LANG_ROOT/js/rpc-client"/* .
+cp "$REACH_LANG_ROOT/rpc-client/js"/* .
 
 git diff package.json
 git checkout -- package.json
